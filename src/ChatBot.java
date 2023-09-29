@@ -44,5 +44,13 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
+    // method that prints out the Truth.
+    public void clown() {
+        System.out.println("Behold, the most useful junk of scrap, " + name);
+    }
+    // method that RETURNS the square of a certain number.
+    public int squared(int num1) {
+        return (num1 * num1);
+    }
 }
 
